@@ -11,7 +11,7 @@ class Vehicle {
     }
 
     carInfo(){
-        console.log(`Information of vehicle ${this.model} ${this.color} ${this.yearOfManufacture}`);
+        console.log(`Information of vehicle - ${this.model} ${this.color} ${this.yearOfManufacture}`);
     }
 }
 
@@ -21,14 +21,14 @@ Maruti.carInfo()
 class Carr extends Vehicle {
     seatCapacity : number;
 
-    constructor(SeatingCapacity : number) {
-        super();
+    constructor(Bike : string, Shade : string, Year : number, SeatingCapacity : number) {
+        super(Bike, Shade, Year);
         this.seatCapacity = SeatingCapacity;
     }
 
     Driving(){
-        console.log(`The seating capacity for a vehicle ${this.model} ${this.color} ${this.yearOfManufacture} is  ${this.seatCapacity}`)
+        console.log(`The seating capacity for a ${this.color} ${this. model} ${this.yearOfManufacture} is ${this.seatCapacity}`)
     }
 }
-let Renaultt = new Carr(5);
+let Renaultt = new Carr("Desire", "Black", 2019, 5);
 Renaultt.Driving();

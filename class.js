@@ -21,7 +21,7 @@ var Vehicle = /** @class */ (function () {
         this.yearOfManufacture = Year;
     }
     Vehicle.prototype.carInfo = function () {
-        console.log("Information of vehicle " + this.model + " " + this.color + " " + this.yearOfManufacture);
+        console.log("Information of vehicle - " + this.model + " " + this.color + " " + this.yearOfManufacture);
     };
     return Vehicle;
 }());
@@ -29,15 +29,15 @@ var Maruti = new Vehicle("Desire", "Black", 2019);
 Maruti.carInfo();
 var Carr = /** @class */ (function (_super) {
     __extends(Carr, _super);
-    function Carr(SeatingCapacity) {
-        var _this = _super.call(this, _this.model, color, yearOfManufacture) || this;
+    function Carr(Bike, Shade, Year, SeatingCapacity) {
+        var _this = _super.call(this, Bike, Shade, Year) || this;
         _this.seatCapacity = SeatingCapacity;
         return _this;
     }
     Carr.prototype.Driving = function () {
-        console.log("The seating capacity for a vehicle " + this.model + " " + this.color + " " + this.yearOfManufacture + " is  " + this.seatCapacity);
+        console.log("The seating capacity for a " + this.color + " " + this.model + " " + this.yearOfManufacture + " is " + this.seatCapacity);
     };
     return Carr;
 }(Vehicle));
-var Renaultt = new Carr(5);
+var Renaultt = new Carr("Desire", "Black", 2019, 5);
 Renaultt.Driving();
