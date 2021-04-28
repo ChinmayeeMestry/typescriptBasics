@@ -27,7 +27,7 @@ Perform following activities -
 - Class properties 'seating capacity(number of persons that sit)'
 - Class constructor to manage these properties
 - Simple method to print these properties along with the properties of class Vehicle
-Make sure that the 'Vehicle' class properties should only be available to itself as well as child class 'Car' but not outside.
+- Make sure that the 'Vehicle' class properties should only be available to itself as well as child class 'Car' but not outside.
 
 # Steps to install
 ```sh
