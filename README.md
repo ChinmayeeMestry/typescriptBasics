@@ -1,9 +1,9 @@
 # typescriptBasics
 ## Table of Contents
-- [Task 1 : 27 April 2021](#task-:-127-april-2021)
+- [Task 27 April 2021](#task-27-april-2021)
 - [Steps to install](#steps-to-install)
 - [Steps to execute](#steps-to-execute)
-## Task 1 : 27 April 2021 
+## Task 27 April 2021
 ### Understanding Typescript
 Perform following activities -
 
