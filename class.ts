@@ -4,8 +4,8 @@ class Vehicle {
     protected color : string;
     protected yearOfManufacture :number;
 
-    constructor(Bike : string, Shade : string, Year : number ) {
-        this.model = Bike;
+    constructor(Model : string, Shade : string, Year : number ) {
+        this.model = Model;
         this.color = Shade;
         this.yearOfManufacture = Year;
     }
@@ -21,8 +21,8 @@ Maruti.carInfo()
 class Carr extends Vehicle {
     seatCapacity : number;
 
-    constructor(Bike : string, Shade : string, Year : number, SeatingCapacity : number) {
-        super(Bike, Shade, Year);
+    constructor(Model : string, Shade : string, Year : number, SeatingCapacity : number) {
+        super(Model, Shade, Year);
         this.seatCapacity = SeatingCapacity;
     }
 
