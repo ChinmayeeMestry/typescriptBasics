@@ -1,12 +1,12 @@
 // Creating a simple function which helps to multiply 4 numbers:
 
 
-function mul(a:number, b:number, c:number = 4, d?:number): number {
-    if(d){
-    return a*b*c*d
+function mul(int1:number, int2:number, int3:number = 4, int4?:number): number {
+    if(int4){
+    return int1*int2*int3*int4
     }
     else{
-        return a*b*c
+        return int1*int2*int3
     }
 }
 
